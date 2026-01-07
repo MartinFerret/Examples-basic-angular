@@ -1,0 +1,4 @@
+<h1>Dashboard</h1>
+<p>{{ lastAction }}</p>
+
+<app-user-card [user]="user" (lastAction)="updateLastAction($event)" />
