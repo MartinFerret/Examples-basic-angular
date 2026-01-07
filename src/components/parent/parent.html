@@ -1,0 +1,7 @@
+<h1>{{ childData }}</h1>
+
+<app-child
+  [dataFromParent]="data"
+  [dataAgainFromParent]="dataToChild"
+  (stringToParent)="getDataFromChild($event)"
+/>
